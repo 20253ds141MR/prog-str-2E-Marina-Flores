@@ -1,5 +1,7 @@
 public class Main {
     public static void main (String[] args){
-        Sytem.out.println ("Mensaje desde main");
+<<<<<<< HEAD
+        Sytem.out.println ("Mensaje final: main + feature");
+
     }
 }
