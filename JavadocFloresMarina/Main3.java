@@ -3,10 +3,9 @@ import java.util.Scanner;
 public class Main3 {
 
     /**
-     * Método principal que muestra un menú en consola
-     * y permite al usuario seleccionar distintas operaciones.
-     * @param args argumentos de la línea de comandos
+     * Método principal que muestra un menú en consola permitiendo elegir distintas operaciones.
      */
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int choice;
@@ -48,10 +47,9 @@ public class Main3 {
     }
 
     /**
-     * Calcula el Índice de Masa Corporal (IMC) de una persona
-     * a partir de su peso y estatura.
-     * @param scanner objeto Scanner para leer datos del usuario
+     * Calcula el Índice de Masa Corporal (IMC) de una persona ingresando peso en Kg y altura en metros
      */
+
     public static void calcularIMC(Scanner scanner) {
         System.out.print("Ingresa tu peso en kg: ");
         double peso = scanner.nextDouble();
@@ -65,9 +63,9 @@ public class Main3 {
     }
 
     /**
-     * Calcula el área de un rectángulo usando su base y altura.
-     * @param scanner objeto Scanner para leer datos del usuario
+     * Calcula el área de un rectángulo usando su base y altura
      */
+
     public static void areaRectangulo(Scanner scanner) {
         System.out.print("Ingresa la base: ");
         double base = scanner.nextDouble();
@@ -81,9 +79,9 @@ public class Main3 {
     }
 
     /**
-     * Convierte una temperatura de grados Celsius a Fahrenheit.
-     * @param scanner objeto Scanner para leer datos del usuario
+     * Convierte una temperatura de grados Celsius a Fahrenheit
      */
+
     public static void convertirCelsiusAFahrenheit(Scanner scanner) {
         System.out.print("Ingresa los grados Celsius: ");
         double celsius = scanner.nextDouble();
@@ -94,8 +92,7 @@ public class Main3 {
     }
 
     /**
-     * Calcula el área de un círculo a partir de su radio.
-     * @param scanner objeto Scanner para leer datos del usuario
+     * Calcula el área de un círculo a partir de su radio 
      */
     public static void areaCirculo(Scanner scanner) {
         System.out.print("Ingresa el radio: ");
