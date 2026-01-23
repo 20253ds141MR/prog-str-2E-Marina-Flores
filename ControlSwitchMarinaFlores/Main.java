@@ -43,6 +43,15 @@ public class Main{
            System.out.println("Resultado = "+ resultado);
 
         case 3:
+            operacion= "Multiplicación";
+            resultado= a*b;
+            System.out.println("\nOperación: " + operacion);
+            System.out.println("Valores: a= " + a + ", b = " + b);
+            System.out.println("Resultado = "+ resultado);
+            
+            break;
+
+        case 4:
             operacion= "División";
             System.out.println("\nOperación: " + operacion);
             System.out.println("Valores: a= " + a + ", b= " + b);
