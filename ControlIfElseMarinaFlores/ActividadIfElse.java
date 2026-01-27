@@ -1,15 +1,15 @@
 package ControlIfElseMarinaFlores;
 
-import.java.util;
+import java.util.Scanner;
 
 public class ActividadIfElse{
     public static void main {Strings []args}{
-        Scanner sc= new scanner(System.in);
-int edad = sc.nextInt();
-   if (edad <0 || edad > 120){
-      System.out.println("Edad inválida");
-      return;
-   }
+        Scanner sc= new Scanner(System.in);
+        int edad = sc.nextInt();
+        if (edad <0 || edad > 120){
+            System.out.println("Edad inválida");
+            return;
+        }
        boolean est= sc.nextBoolean();
        int = tarifa;
 
