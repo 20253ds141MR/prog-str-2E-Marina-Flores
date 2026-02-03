@@ -12,7 +12,7 @@ public class ActividadIfElse {
 
         if (edad < 0 || edad > 120) {
             System.out.println("Edad inválida");
-            return;
+            return ;
         }
 
         System.out.print("¿Eres estudiante? (true/false): ");
