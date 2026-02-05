@@ -4,7 +4,7 @@ public class Ticket{
     public static void main(String[] args) {
         practica ticket1 = new practica();
 
-        int cantidad = 3; // <-- cámbialo a lo que necesites
+        int cantidad = 10; // <-- cámbialo a lo que necesites
         double subtotal = ticket1.calcularSubtotal(cantidad);
         double descuentoCalculado = ticket1.calcularDescuento(subtotal);
         double total = ticket1.calcularTotal(subtotal);
