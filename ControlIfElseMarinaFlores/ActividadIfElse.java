@@ -12,6 +12,7 @@ public class ActividadIfElse {
 
         if (edad < 0 || edad > 120) {
             System.out.println("Edad inválida");
+            sc.close();
             return ;
         }
 
