@@ -1,34 +1,28 @@
 
 
 public class Main {
-public static void main(String[] args) {
+    public static void main(String[] args) {
+        Gato botas = new Gato("Botas");
+        Perro bruno = new Perro("Bruno");
 
-Gato botas= new Gato("Botas");
-Perro bruno= new Perro("Bruno");
+        // Herencia
+        botas.comer();
+        botas.hacerSonido();
 
-//Herencia
-botas.comer();
-botas.hacerSonido();
-System.out.println("-------------------");
-bruno.comer();
-bruno.hacerSonido();
+        System.out.println("---------------------");
 
-Animal[] animales= new Animal[3];
-animales[0]=new Perro("Rufus");
-animales[1] = new Gato("Honey");
-animales[2] = new Perro("Solovino");
-//Poliformismo
-for(Animal animal: animales){
-System.out.println("-------");
-animal.comer();
-animal.hacerSonido();
-}
+        bruno.comer();
+        bruno.hacerSonido();
 
-//Cast, solo para hacer uso de los metodos de perro, a pesar de que anmal1 es un objeto de Animal
-Animal animal1= new Perro("nicky");
-Perro perr1 = (Perro)animal1;
-perr1.marcarTerritorio();
+        // Polimorfismo
+        Animal[] animales = new Animal[3];
+        animales[0] = new Animal("Ajolote");
+        animales[1] = new Perro("Rufus");
+        animales[2] = new Perro("Solovino");
 
-
-}
+        System.out.println("---------------------");
+        for (Animal a : animales) {
+            a.hacerSonido(); 
+        }
+    }
 }
