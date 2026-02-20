@@ -1,4 +1,3 @@
-
 public class Animal {
 
 private String nombre;
