@@ -1,8 +1,8 @@
-module com.example.loginjavafx {
+module com.tuapp {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens com.example.loginjavafx to javafx.fxml;
-    exports com.example.loginjavafx;
+    opens com.tuapp to javafx.fxml;
+    exports com.tuapp;
 }

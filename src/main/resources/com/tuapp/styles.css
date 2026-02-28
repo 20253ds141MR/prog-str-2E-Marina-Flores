@@ -1,0 +1,14 @@
+.root {
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+    -fx-background-color: #f7f7f7;
+}
+
+.title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.error-label {
+    -fx-text-fill: #c62828; /* rojo */
+    -fx-font-weight: bold;
+}
