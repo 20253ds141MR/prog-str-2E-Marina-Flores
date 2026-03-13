@@ -1,3 +1,5 @@
-# Proyecto Java FX
-El usuario ingresa su correo electrónico así como su contraseña.
-Una nueva ventana brinda la Bienvenida al usuario.
+# prog-str-2E-Marina-Flores
+Este es un repositorio para todo el cuatrimestre de la materia programación estructurada 
+
+Autor: Marina Flores
+Grado y grupo: 2E
