@@ -32,6 +32,40 @@ public class PersonService {
         return result;
     }
 
+    public void updatePerson(int index, String name, String email, String edad) throws IOException {
+        validate(name,email, Integer.parseInt(edad));
+        if(index<0) {
+            throw new IllegalArgumentException("El indice es inválido");
+        }
+        List<String> data=getCleanLines();
+        data.set(index,name+","+email+","+edad);
+        repo.saveFile(data);
+    }
+
+    public void deletePerson(int index) throws IOException {
+        List<String> data = getCleanLines();
+
+        if (index < 0 || index >= data.size()) {
+            throw new IllegalArgumentException("El índice es inválido o está fuera de rango");
+        }
+        data.remove(index);
+        repo.saveFile(data);
+    }
+
+
+    private List<String> getCleanLines() throws IOException {
+        List<String> lines= repo.readAllLines();
+        List<String> cleanLines = new ArrayList<>();
+        for(String line:lines){
+            if(line!=null && !line.isBlank()){
+                cleanLines.add(line);
+
+            }
+        }
+
+        return cleanLines;
+    }
+
     public void addPerson(String name, String email, int edad) throws IOException {
         validate(name, email, edad);
         repo.appenNewLine(name+","+ email + ","+ edad);
@@ -52,4 +86,6 @@ public class PersonService {
         }
 
     }
+
+
 }

@@ -26,15 +26,14 @@ public class PersonService {
             String[] parts = line.split(",");
             String titulo = parts[0];
             String autor = parts[1];
-            int age = Integer.parseInt(parts[2]);
             result.add(titulo +" - "+ autor);
         }
         return result;
     }
 
-    public void addPerson(String titulo, String autor, int age) throws IOException {
+    public void addPerson(String titulo, String autor) throws IOException {
         validate(titulo, autor);
-        repo.appenNewLine(titulo+","+autor,+ age);
+        repo.appenNewLine(titulo+","+autor);
     }
 
     private void validate(String titulo, String autor) throws IOException {

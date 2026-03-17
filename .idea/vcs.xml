@@ -2,8 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/DemoListView2" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/prog-str-examen-u2-2e" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/prog-str-examen-u2-rec-2e" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
+  <component name="VcsProjectSettings">
+    <option name="detectVcsMappingsAutomatically" value="false" />
   </component>
 </project>

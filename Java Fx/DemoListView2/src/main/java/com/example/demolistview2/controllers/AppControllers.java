@@ -24,8 +24,7 @@ public class AppControllers {
     private TextField txtTitulo;
     @FXML
     private TextField txtAutor;
-    @FXML
-    private TextField txtAge;
+
 
     @FXML
     private ObservableList<String> data =FXCollections.observableArrayList();
@@ -48,8 +47,7 @@ public class AppControllers {
         try {
             String titulo = txtTitulo.getText();
             String autor = txtAutor.getText();
-            String age = txtAge.getText();
-            service.addPerson(titulo, autor, age);
+            service.addPerson(titulo, autor);
             lblMsg.setText("Libro registrado con éxito");
             lblMsg.setStyle("-fx-text-fill: green");
             txtTitulo.clear();
