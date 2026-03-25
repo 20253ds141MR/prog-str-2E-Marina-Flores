@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.contactosemergencia.controllers.ContactController">
+   <children>
+      <Label text="Registro de contactos" />
+      <GridPane>
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Nombre" />
+            <Label text="Teléfono" GridPane.rowIndex="1" />
+            <Label text="Parentesco" GridPane.rowIndex="2" />
+            <TextField fx:id="txtNombre" GridPane.columnIndex="1" />
+            <TextField fx:id="txtTelefono" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <ComboBox fx:id="comboParentesco" prefHeight="26.0" prefWidth="300.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+      <ButtonBar prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+          <Button mnemonicParsing="false" onAction="#agregar" text="Agregar" />
+            <Button mnemonicParsing="false" onAction="#actualizar" text="Actualizar" />
+            <Button mnemonicParsing="false" onAction="#buscar" text="Buscar" />
+            <Button mnemonicParsing="false" onAction="#eliminar" text="Eliminar" />
+            <Button mnemonicParsing="false" onAction="#limpiarCampos" text="Limpiar campos" />
+        </buttons>
+      </ButtonBar>
+      <ListView fx:id="listView" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</VBox>

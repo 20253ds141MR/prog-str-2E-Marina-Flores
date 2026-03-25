@@ -5,48 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89472947-5cc7-4e5a-8d0e-a7b0644d19bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DemoListView2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoListView2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoListView2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoListView2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoListView2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoListView2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoListView2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoListView2/data/persons.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoListView2/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoListView2/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoListView2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoListView2/src/main/java/com/example/demolistview2/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoListView2/src/main/java/com/example/demolistview2/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoListView2/src/main/java/com/example/demolistview2/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoListView2/src/main/java/com/example/demolistview2/controllers/AppControllers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoListView2/src/main/java/com/example/demolistview2/repositories/PersonFileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoListView2/src/main/java/com/example/demolistview2/services/PersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoListView2/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoListView2/src/main/resources/com/example/demolistview2/views/app-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoListView2/src/main/resources/com/example/demolistview2/views/formulario-registro.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_JavaFx/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_JavaFx/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_JavaFx/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_JavaFx/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_JavaFx/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_JavaFx/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_JavaFx/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_JavaFx/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_JavaFx/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_JavaFx/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_JavaFx/src/main/java/com/example/demo_javafx/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_JavaFx/src/main/java/com/example/demo_javafx/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_JavaFx/src/main/java/com/example/demo_javafx/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_JavaFx/src/main/java/controllers/FormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_JavaFx/src/main/java/controllers/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_JavaFx/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_JavaFx/src/main/resources/com/example/demo_javafx/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_JavaFx/src/main/resources/form-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_JavaFx/src/main/resources/home-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListView/src/main/java/com/example/listview/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListView/src/main/java/com/example/listview/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-javafx/src/main/resources/com/tuapp/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/login-javafx/src/main/resources/com/tuapp/dashboard.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-javafx/src/main/resources/com/tuapp/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/login-javafx/src/main/resources/com/tuapp/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prog-str-examen-u2-2e" beforeDir="false" afterPath="$PROJECT_DIR$/../prog-str-examen-u2-2e" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,24 +15,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/DemoListView2" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "20253ds141MR"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;20253ds141MR&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/20253ds141MR/prog-str-2E-Marina-Flores.git",
-    "accountId": "2746d54d-89c0-418c-98ec-045b72f155fe"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/20253ds141MR/prog-str-2E-Marina-Flores.git&quot;,
+    &quot;accountId&quot;: &quot;2746d54d-89c0-418c-98ec-045b72f155fe&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="3As7fYIPxQHhB1VveN5jjItv4rW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -82,12 +43,13 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mflsr/OneDrive/Escritorio/GitHub/Java Fx",
+    "last_opened_file_path": "C:/Users/mflsr/OneDrive/Escritorio/Programación Estructurada/prog-str-2E-Marina-Flores/Java Fx",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -113,6 +75,9 @@
       <option name="presentableId" value="Default" />
       <updated>1773369528170</updated>
       <workItem from="1773369530147" duration="492000" />
+      <workItem from="1774357990795" duration="3412000" />
+      <workItem from="1774461211545" duration="474000" />
+      <workItem from="1774468568539" duration="1028000" />
     </task>
     <servers />
   </component>
